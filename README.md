@@ -20,8 +20,9 @@ blockchain storage worldwide due to the availability of encryption cache persist
 Boxy is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
  - 65 second block targets
  - subsidy halves in 900k blocks 
- - 1 billion total coins
- - 10 coins per block
+ - 100 million total coins
+ - no official pools before block 1000 (CPU mining only)
+ - 30 coins per block
  - ARTAX blockchain integration
  - 2018 blocks to retarget difficulty
 
