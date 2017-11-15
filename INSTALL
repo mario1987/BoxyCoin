@@ -1,0 +1,9 @@
+Building Boxy
+
+See doc/readme-qt.rst for instructions on building Boxy-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Boxy.
+
+See doc/build-*.txt for instructions on building boxycoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Boxy.

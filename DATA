@@ -1,0 +1,70 @@
+a58816469d86505e04d77de55cd64f0018f84ec1d9df77ad983100de6a2cae28 = MERKLE
+block.nTime = 1507435309
+2017-10-08 04:19:50 block.nNonce = 34854
+2017-10-08 04:19:50 block.GetHash = 1a9b95e770183aba8cc10a82372e9973fd0b09c0e17197dbd06b717a91cc6194
+2017-10-08 04:19:50 CBlock(hash=1a9b95e770183aba8cc10a82372e9973fd0b09c0e17197dbd06b717a91cc6194, input=010000000000000000000000000$
+2017-10-08 04:19:50   CTransaction(hash=a58816469d86505e04d77de55cd64f0018f84ec1d9df77ad983100de6a2cae28, ver=1, vin.size=1, vout.s$
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 04ffff001d01042930382f3$
+    CTxOut(nValue=50.00000000, scriptPubKey=325684710fa689ad5023690c80f3a4)
+  vMerkleTree: a58816469d86505e04d77de55cd64f0018f84ec1d9df77ad983100de6a2cae28
+
+
+
+git remote add origin https://github.com/boxstar65/boxy-project.git
+git push -u origin master
+
+https://dev.cryptolife.net/compiling-the-daemon-for-your-altcoin-in-ubuntu-linux/
+
+RPCRAWTRANSACTION ERROR FIX - 
+ sed -i 's/<const\ CScriptID\&/<CScriptID/' rpcrawtransaction.cpp
+
+
+WINDOWS COMPILE ERROR
+simply check path variables using root ==> sudo su (enter password )
+                                                   ==> export
+you will get a list of variables, PATH= will be there, if there is no /mnt/mxe/usr/bin:
+
+then do under root acces ==> export PATH=/mnt/mxe/usr/bin:$PATH
+
+
+
+
+uote
+--
+#!/bin/bash
+MXE_PATH=/mnt/mxe
+sed -i "s/WinIoCtl.h/winioctl.h/g" src/dbinc/win_db.h
+mkdir build_mxe
+cd build_mxe
+
+RANLIB=$MXE_PATH/usr/bin/i686-w64-mingw32.static-ranlib \
+      CC=$MXE_PATH/usr/bin/i686-w64-mingw32.static-gcc \
+      CXX=$MXE_PATH/usr/bin/i686-w64-mingw32.static-g++ \
+      ../dist/configure \
+      --disable-replication \
+      --enable-mingw \
+      --enable-cxx \
+      --host x86 \
+      --prefix=$MXE_PATH/usr/i686-w64-mingw32.static
+
+make
+
+make install
+
+--
+
+
+--
+I'm having a similar issue but its this
+
+/src/leveldb/libmemenv.a: error adding symbols: Archive has no index; run ranlib to add one
+collect2: error: ld returned 1 exit status
+
+im assuming its another place in the compile, but im trying to add ranlib in both compiles and still no luck. an suggestions (sorry for digging up an old thread, but its the only one that makes sense, and im still downloading the amazon image hendo420 has.
+
+thank you
+
+Rkana:
+
+
+
