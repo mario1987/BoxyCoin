@@ -7,7 +7,8 @@
     ufw default allow outgoing
     ufw enable
 
-
+    sudo apt-get install ntp git build-essential libssl-dev libdb-dev libdb++-dev libboost-all-dev libqrencode-dev libcurl4-openssl-dev     curl libzip-dev libzip2
+    sudo apt-get install libboost-all-dev
     sudo apt-get install build-essential libtool autotools-dev autoconf pkg-config libssl-dev
     sudo apt-get install libboost-all-dev
     sudo apt-get update
