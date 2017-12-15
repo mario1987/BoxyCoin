@@ -1,10 +1,12 @@
 BoxyCoin Readme First
 ================================
 
-http://www.boxy.online
 http://www.boxycoin.org
 
+http://www.boxy.online
+
 Copyright (c) 2009-2014 Bitcoin Developers
+
 Copyright (c) 2014-2017 Boxy Developers
 
 What is Boxy?
