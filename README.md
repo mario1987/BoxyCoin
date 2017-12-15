@@ -1,4 +1,4 @@
-Boxy integration/staging tree
+BoxyCoin Readme First
 ================================
 
 http://www.boxy.online
@@ -11,7 +11,7 @@ What is Boxy?
 ----------------
 Boxy is an open-source, peer-to-peer Internet currency forked from Bitcoin and inspired by Litecoin.
 Like Bitcoin, it enables instant, near-zero cost payments to anyone in the world. 
-Boxy's decentralised network is secured by complex mathematical computations which allows individuals to control 
+Boxycoin's decentralised network is secured by complex mathematical computations which allows individuals to control 
 their own finances. Compared to Bitcoin and Litecoin, Boxy features faster transaction confirmation times, 
 improved security and ARTAX storage integration (the first of its kind). ARTAX technology is set to revolutionize 
 blockchain storage worldwide due to the availability of encryption cache persistance (ECP).
@@ -28,6 +28,23 @@ Boxy is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
 
 For more information, as well as an immediately useable, binary version of
 the Boxy client sofware, see http://www.boxycoin.org
+
+What is different about Boxycoin?
+
+The coin code is not at all the difficult part of an endeavour like this. The difference quite simply is ARTAX. All crypto including BTC
+to date have scaling issues, issues with blockchain sizes, tx sizes and security. ARTAX looks to take a flamethrower to all of these 
+items by way of encryption cache persistence. We look to use Boxy as the first example of scaling nodes through one variable spectrum
+and streamlining one de-centralised storage interface for the coins backend. The eventual intention is to have other people forking boxy
+and ARTAX into newer, greater things and improvising the new ARTAX storage resolution into the cryptography landscape.
+
+ 
+Source Code: http://www.github.com/boxycoin/boxycoin.git
+Discord: https://discord.gg/6DSvyNV
+Bitcoin talk thread: https://bitcointalk.org/index.php?topic=2401866.0
+Facebook: http://www.facebook.com/Boxycoin
+Website: http://www.boxycoin.org
+Reddit: http://www.reddit.com/r/Boxycoin
+ 
 
 License
 -------
