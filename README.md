@@ -19,6 +19,7 @@ improved security and ARTAX storage integration (the first of its kind). ARTAX t
 blockchain storage worldwide due to the availability of encryption cache persistance (ECP).
 
 
+
 Boxy is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
  - 65 second block targets
  - subsidy halves in 900k blocks 
@@ -31,7 +32,10 @@ Boxy is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
 For more information, as well as an immediately useable, binary version of
 the Boxy client sofware, see http://www.boxycoin.org
 
+
+
 What is different about Boxycoin?
+---------------------------------
 
 The coin code is not at all the difficult part of an endeavour like this. The difference quite simply is ARTAX. All crypto including BTC
 to date have scaling issues, issues with blockchain sizes, tx sizes and security. ARTAX looks to take a flamethrower to all of these 
@@ -75,13 +79,6 @@ The `master` branch is regularly built and tested, but is not guaranteed to be
 completely stable. [Tags](https://github.com/boxy-project/boxy/tags) are created
 regularly to indicate new official, stable release versions of Boxy.
 
-Testing
--------
-
-Testing and code review is the bottleneck for development; we get more pull
-requests than we can review and test. Please be patient and help out, and
-remember this is a security-critical project where any mistake might cost people
-lots of money.
 
 ### Automated Testing
 
@@ -90,7 +87,9 @@ submit new unit tests for old code.
 
 Unit tests for the core code are in `src/test/`. To compile and run them:
 
-    cd src; make -f makefile.unix test
+    cd src; 
+    sed -i 's/<const\ CScriptID\&/<CScriptID/' rpcrawtransaction.cpp
+    make -f makefile.unix test
 
 
 
