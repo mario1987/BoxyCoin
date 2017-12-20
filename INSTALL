@@ -1,6 +1,6 @@
 Building Boxy
 
-See doc/readme-qt.rst for instructions on building Boxy-Qt,
+See doc/readme-qt.rst for instructions on building BoxyCore,
 the intended-for-end-users, nice-graphical-interface, reference
 implementation of Boxy.
 
