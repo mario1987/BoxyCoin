@@ -202,9 +202,7 @@
          </property>
         </spacer>
        </item>
-      </layout>
-     </item>
-     <item>
+         <item>
          <widget class="QLabel" name="coinimage">
           <property name="text">
            <string/>
