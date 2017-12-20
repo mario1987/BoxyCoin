@@ -1173,9 +1173,12 @@ void MapPort(bool)
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 static const char *strMainNetDNSSeed[][2] = {
-    {"boxy.online", "46.101.17.64"},
-    {"boxycoin.org", "159.203.161.244"},
-    {"boxycoin.ddns.net", "104.131.50.160"},
+    {"boxy.online", "159.203.161.244"},
+    {"pool.boxy.online", "198.199.124.131"},
+    {"node.bubtails.com", "147.135.130.119"},
+    {"boxycoin.ddns.net", "138.68.174.82"},
+    {"electrum.boxy.online", "211.28.42.157"},
+
 
     {NULL, NULL}
 };
