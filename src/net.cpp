@@ -1175,10 +1175,11 @@ void MapPort(bool)
 static const char *strMainNetDNSSeed[][2] = {
     {"boxy.online", "159.203.161.244"},
     {"pool.boxy.online", "198.199.124.131"},
-    {"node.bubtails.com", "147.135.130.119"},
-    {"boxycoin.ddns.net", "138.68.174.82"},
-    {"electrum.boxy.online", "211.28.42.157"},
-
+    {"electrum.boxy.online", "138.68.174.82"},
+    {"seed1.boxycoin.org", "147.135.130.119"},
+    {"seed2.boxycoin.org", "seed3.boxycoin.org"},
+    {"seed4.boxycoin.org", "seed5.boxycoin.org"},
+    {"electrum2.boxy.online", "boxycoin.ddns.net"},
 
     {NULL, NULL}
 };
