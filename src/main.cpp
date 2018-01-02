@@ -1086,7 +1086,7 @@ uint256 static GetOrphanRoot(const CBlockHeader* pblock)
     return pblock->GetHash();
 }
 
-static const int64 nDiffChangeTarget = 25500; // Patch effective @ block 25500
+static const int64 nDiffChangeTarget = 30500; // Patch effective @ block 30500
 
 int64 GetBlockValue(int nHeight, int64 nFees)
 {
